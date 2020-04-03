@@ -1,0 +1,5 @@
+A problem well stated is a problem half-solved.
+— Charles Kettering
+
+
+kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaces
